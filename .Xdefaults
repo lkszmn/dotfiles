@@ -1,8 +1,10 @@
 !after editing .Xdefaults it may be reloaded with:
 !xrdb -load ~/.Xdefaults
 
-xterm*VT100*geometry: 94x28
-xterm*font: -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+!xterm*VT100*geometry: 94x28
+!xterm*font: -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
+XTerm*faceName: Inconsolata
+XTerm*faceSize: 16
 xterm*background: black
 xterm*foreground: lightblue
 xterm*loginShell: true
