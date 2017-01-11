@@ -1,27 +1,65 @@
-!after editing .Xdefaults it may be reloaded with:
-!xrdb -load ~/.Xdefaults
 
-!xterm*VT100*geometry: 94x28
-!xterm*font: -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
-XTerm*faceName: Inconsolata
-XTerm*faceSize: 16
-xterm*background: black
-xterm*foreground: lightblue
-xterm*loginShell: true
-xterm*scrollBar: false
-xterm*rightScrollBar: false
-xterm*title: XTerm
-xterm*iconName: XTerm
-xterm*saveLines: 50000
-xterm*jumpScroll: true
-xterm*scrollTtyOutput: false
-xterm*scrollKey: true
-xterm*alwaysUseMods: true
-xterm*metaSendsEscape: true
-xterm*utf8Title: true
-XTerm*utf8: 1
+! Window
+URxvt.scrollBar: false
+!URxvt.borderLess: true
+URxvt.internalBorder: 0
+URxvt.externalBorder: 0
+! URxvt.iconFile: /usr/share/icons/Faenza/apps/16/terminal.png
 
-Xft.hinting: 1
-Xft.hintstyle: hintfull
-Xft.antialias: 1
-Xft.dpi: 120
+! Fonts
+URxvt.font: xft:Monospace:size=12
+URxvt.depth: 32
+!URxvt.background: rgb:1111/1111/1111
+!URxvt.foreground: rgb:baba/bdbd/b6b6
+
+! Extensions
+! URxvt.perl-ext-common:  default,clipboard
+
+! Keymaps
+! URxvt.iso14755: false
+!URxvt.iso14755_52: false
+!URxvt.keysym.M-c: perl:clipboard:copy
+!URxvt.keysym.M-v: perl:clipboard:paste
+
+
+urxvt*foreground: #f2f2f2
+urxvt*background: #101010
+
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    purple
+! color6    cyan
+! color7    white
+
+urxvt*color0:    #6c6c6c
+urxvt*color1:    #e9897c
+urxvt*color2:    #b6e77d
+urxvt*color3:    #ecebbe
+urxvt*color4:    #a9cdeb
+urxvt*color5:    #ea96eb
+urxvt*color6:    #c9caec
+urxvt*color7:    #f2f2f2
+
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white
+
+urxvt*color8:    #747474
+urxvt*color9:    #f99286
+urxvt*color10:    #c3f786
+urxvt*color11:    #fcfbcc
+urxvt*color12:    #b6defb
+urxvt*color13:    #fba1fb
+urxvt*color14:    #d7d9fc
+urxvt*color15:    #e2e2e2
+
