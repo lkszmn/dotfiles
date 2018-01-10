@@ -111,9 +111,6 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 bindsym $mod+minus workspace 11
 bindsym $mod+equal workspace 12
-bindsym $mod+comma workspace prev
-bindsym $mod+period workspace next
-
 
 
 
@@ -167,6 +164,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
